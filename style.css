@@ -4,14 +4,8 @@ body {
   color: #ffffff;
   padding: 30px;
 
+    margin-right: auto
   margin-left: auto;
-  margin-right: auto;
-}
-.col-3 {
-  padding-bottom: .75rem;
-  padding-top:.75rem;
-  border-bottom: solid 1px rgba(255,255,255,.1);
-
 }
 
 #logo{
@@ -22,14 +16,13 @@ body {
 
 #exchanges{
   margin-top:4rem;
-  width:35rem;
-  margin-right:auto;
-  margin-left:auto;
+  width:25rem;
+
 }
 
-.col-4 {
-  padding-bottom: .75rem;
-  padding-top:.75rem;
+.col-3, .col-1, .col-2, .col-6 {
+  padding-bottom: .25rem;
+  padding-top:.25rem;
   border-bottom: solid 1px rgba(255,255,255,.1);
 }
 
@@ -44,10 +37,30 @@ body {
 
 #migration{
   width:80%;
-  margin-left:auto;
-  margin-right:auto;
+  margin-right: auto;
+  margin-left: auto;
+
 }
 
 #green{
   color: #2ae7a8;
+}
+
+#footer{
+  margin-top: 5rem;
+  font-size: 0.75rem;
+
+}
+
+#top, #REPv2, #REP, #total, #REPv2_per, #REP_per, #total_per {
+  padding-bottom: .75rem;
+  padding-top:.75rem;
+  border-bottom: solid 1px rgba(255,255,255,.1);
+
+
+}
+
+
+.col-lg-6{
+  display:table-cell;
 }
