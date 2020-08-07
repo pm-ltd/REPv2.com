@@ -3,9 +3,7 @@ body {
   background:linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), rgb(14, 14, 33);
   color: #ffffff;
   padding: 30px;
-
-    margin-right: auto
-  margin-left: auto;
+  margin: 0 auto;
 }
 
 #logo{
@@ -14,10 +12,26 @@ body {
   padding-top:.75rem;
 }
 
-#exchanges{
+.exchanges {
   margin-top:4rem;
-  width:25rem;
+}
 
+.exchanges table {
+  width: 100%;
+  text-align: center;
+}
+.exchanges th {
+  color: #2ae7a8;
+}
+.exchanges td, .exchanges th {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.exchanges tr {
+  padding-bottom: .25rem;
+  padding-top:.25rem;
+  border-bottom: solid 1px rgba(255,255,255,.1);
 }
 
 .col-3, .col-1, .col-2, .col-6 {
@@ -42,7 +56,7 @@ body {
 
 }
 
-#green{
+.green {
   color: #2ae7a8;
 }
 
