@@ -1,204 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>REPv2 Migration Details | Augur REP to REPv2 Migration </title>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
-    <link rel="stylesheet" href="./style.css">
-    <meta name="description" content="Details and stats from Augur v2's REP to REPv2 token migration and the surrounding ecosystems support, notices and developments.">
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-    <link rel="manifest" href="./favicon/site.webmanifest">
-    <link rel="shortcut icon" href="./favicon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="./favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <meta content="REPv2 Migration Details" property="og:title">
-    <meta content="REPv2 Migration Details" property="og:site_name">
-    <meta content="REPv2 Migration Details" name="twitter:card">
-    <meta content="REPv2 Migration Details" name="twitter:title">
-    <meta content="REPv2 Migration Details" name="twitter:domain">
-    <meta content="Details and stats from Augur v2's REP to REPv2 token migration and the surrounding ecosystems support, notices and developments.">
-    <meta content="Details and stats from Augur v2's REP to REPv2 token migration and the surrounding ecosystems support, notices and developments." property="og:description">
-    <meta content="Details and stats from Augur v2's REP to REPv2 token migration and the surrounding ecosystems support, notices and developments." name="twitter:description">
-    <meta content="https://www.repv2.com/" property="og:url">
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://www.repv2.com/" />
-    <meta content="./meta_logo.png" property="og:image">
-    <meta content="./meta_logo.png" name="twitter:image">
-    <meta content="./meta_logo.png" name="twitter:image:src">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div class="container">
-      <img id="logo" src="https://i.imgur.com/27m4RPm.png">
-      <h4 id="header"> REPv2 Migration </h4>
-      <div id="migration" class="row">
-        <div class="col-3"></div>
-        <div class="green col-3"><b>REPv2</b></div>
-        <div class="green col-3"><b>REP</b></div>
-        <div class="green col-3"><b>Total</b></div>
-        <div class="col-3" id="top">Total Supply</div>
-        <div class="col-3" id="REPv2"></div>
-        <div class="col-3" id="REP"></div>
-        <div class="col-3" id="total">11000000</div>
-        <div class="col-3" id="top">Percent Supply</div>
-        <div class="col-3" id="REPv2_per"></div>
-        <div class="col-3" id="REP_per"></div>
-        <div class="col-3" id="total_per"></div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <h4 id="header_two"> Active REPv2 Markets </h4>
-          <div class="exchanges">
-            <table>
-              <thead>
-                <tr>
-                  <th>Exhange</th>
-                  <th>Trading Pair</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Binance</td>
-                  <td><a href="https://www.binance.com/en/trade/REP_ETH">REPv2/ETH</a></td>
-                </tr>
-                <tr>
-                  <td>Binance</td>
-                  <td><a href="https://www.binance.com/en/trade/REP_BTC">REPv2/BTC</a></td>
-                </tr>
-                <tr>
-                  <td>Binance</td>
-                  <td><a href="https://www.binance.com/en/trade/REP_USDT">REPv2/USDT</a></td>
-                </tr>
-                <tr>
-                  <td>Binance</td>
-                  <td><a href="https://www.binance.com/en/trade/REP_BUSD">REPv2/BUSD</a></td>
-                </tr>
-                <tr>
-                  <td>Binance US</td>
-                  <td><a href="https://www.binance.us/en/trade/pro/REP_USD">REPv2/USD</a></td>
-                </tr>
-                <tr>
-                  <td>Binance US</td>
-                  <td><a href="https://www.binance.us/en/trade/pro/REP_BUSD">REPv2/BUSD</a></td>
-                </tr>
-                <tr>
-                  <td>Binance KR</td>
-                  <td><a href="https://www.binance.kr/trade/REP_BTC">REPv2/BTC</a></td>
-                </tr>
-                <tr>
-                  <td>Binance KR</td>
-                  <td><a href="https://www.binance.kr/trade/REP_USDT">REPv2/USDT</a></td>
-                </tr>
-                <tr>
-                  <td>Binance KR</td>
-                  <td><a href="https://www.binance.kr/trade/REP_BUSD">REPv2/BUSD</a></td>
-                </tr>
-                <tr>
-                  <td>BitFinex</td>
-                  <td><a href="https://www.bitfinex.com/t/REP:ETH">REPv2/ETH</a></td>
-                </tr>
-                <tr>
-                  <td>BitFinex</td>
-                  <td><a href="https://www.bitfinex.com/t/REP:BTC">REPv2/BTC</a></td>
-                </tr>
-                <tr>
-                  <td>BitFinex</td>
-                  <td><a href="https://www.bitfinex.com/t/REP:USD">REPv2/USD</a></td>
-                </tr>
-                <tr>
-                  <td>Bittrex</td>
-                  <td><a href="https://global.bittrex.com/Market/Index?MarketName=ETH-REPV2">REPv2/ETH</a></td>
-                </tr>
-                <tr>
-                  <td>Bittrex</td>
-                  <td><a href="https://global.bittrex.com/Market/Index?MarketName=BTC-REPV2">REPv2/BTC</a></td>
-                </tr>
-                <tr>
-                  <td>Crex24</td>
-                  <td><a href="https://crex24.com/exchange/REP-BTC">REPv2/BTC</a></td>
-                </tr>
-                <tr>
-                  <td>Exrates</td>
-                  <td><a href="https://exrates.me/trading/REPV2BTC">REPv2/BTC</a></td>
-                </tr>
-                <tr>
-                  <td>Kraken</td>
-                  <td><a href="https://trade.kraken.com/charts/KRAKEN:REPV2-ETH">REPv2/ETH</a></td>
-                </tr>
-                <tr>
-                  <td>Kraken</td>
-                  <td><a href="https://trade.kraken.com/charts/KRAKEN:REPV2-BTC">REPv2/BTC</a></td>
-                </tr>
-                <tr>
-                  <td>Kraken</td>
-                  <td><a href="https://trade.kraken.com/charts/KRAKEN:REPV2-USD">REPv2/USD</a></td>
-                </tr>
-                <tr>
-                  <td>Kraken</td>
-                  <td><a href="https://trade.kraken.com/charts/KRAKEN:REPV2-EUR">REPv2/EUR</a></td>
-                </tr>
-                <tr>
-                  <td>Upbit</td>
-                  <td><a href="https://upbit.com/exchange?code=CRIX.UPBIT.KRW-REP">REPv2/KRW</a></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
 
-        <div class="col-lg-6">
-          <h4 id="header_two"> In Progress Markets </h4>
-          <div class="exchanges">
-            <table>
-              <thead>
-                <tr>
-                  <th>Exhange</th>
-                  <th>Trading Pair</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Coinbase</td>
-                  <td><a href="https://upbit.com/exchange?code=CRIX.UPBIT.KRW-REP">Announced</a></td>
-                </tr>
-                <tr>
-                  <td>CoinEx</td>
-                  <td><a href="https://upbit.com/exchange?code=CRIX.UPBIT.KRW-REP">Announced</a></td>
-                </tr>
-                <tr>
-                  <td>Bithumb</td>
-                  <td><a href="https://upbit.com/exchange?code=CRIX.UPBIT.KRW-REP">Announced</a></td>
-                </tr>
-                <tr>
-                  <td>Poloniex</td>
-                  <td><a href="https://upbit.com/exchange?code=CRIX.UPBIT.KRW-REP">Announced</a></td>
-                </tr>
-                <tr>
-                  <td>HitBTC</td>
-                  <td><a href="https://upbit.com/exchange?code=CRIX.UPBIT.KRW-REP">Announced</a></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+<head>
+  <meta charset="UTF-8">
+  <title>REPv2 Migration Stats | Augur REP to REPv2 Migration</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+  <link rel="stylesheet" href="./style.css">
+  <meta name="description" content="Details and stats from Augur v2's REP to REPv2 token migration and the surrounding ecosystems support, notices and developments.">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+  <link rel="shortcut icon" href="./favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="./favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta content="REPv2 Migration Stats | Augur REP to REPv2 Migration" property="og:title">
+  <meta content="REPv2 Migration Stats | Augur REP to REPv2 Migration" property="og:site_name">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@AugurProject" />
+  <meta name="twitter:creator" content="@AugurProject">
+  <meta name="twitter:title" content="REPv2 Migration Stats | Augur REP to REPv2 Migration" />
+  <meta name="twitter:description" content="Details and stats from Augur v2's REP to REPv2 token migration and the surrounding ecosystems support, notices and developments." />
+  <meta name="twitter:image" content="./meta_logo.png" />
+  <meta content="Details and stats from Augur v2's REP to REPv2 token migration and the surrounding ecosystems support, notices and developments" name="description">
+  <meta content="Details and stats from Augur v2's REP to REPv2 token migration and the surrounding ecosystems support, notices and developments" property="og:description">
+  <meta content="https://www.repv2.com" property="og:url">
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.repv2.com" />
+  <meta content="./meta_logo.png" property="og:image">
+  <meta property="article:published_time" content="2020-08-08T10:00:00+00:00" />
+  <meta property="article:modified_time" content="2020-08-08T10:00:00+00:00" />
+  <meta property="og:updated_time" content="2020-08-08T10:00:00+00:00" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip('show');   
+    });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111008175-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-111008175-3');
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <img id="logo" src="https://i.imgur.com/27m4RPm.png">
+    <h3 id="header"> REPv2 Token Migration </h3>
+    <div id="migration" class="row">
+      <div class="col-3"></div>
+      <div class="green col-3"><b>REPv2</b>
+      </div>
+      <div class="green col-3"><b>REP</b>
+      </div>
+      <div class="green col-3"><b>Total</b>
+      </div>
+      <div class="col-3" id="top">Total Supply</div>
+      <div class="col-3" id="REPv2"></div>
+      <div class="col-3" id="REP"></div>
+      <div class="col-3" id="total">11000000</div>
+      <div class="col-3" id="top">Percent Supply</div>
+      <div class="col-3" id="REPv2_per"></div>
+      <div class="col-3" id="REP_per"></div>
+      <div class="col-3" id="total_per"></div>
+    </div>
+  </div>
+  <div class="container" id="explainer">
+    <p>The new REP token is named <span class="green"><b>'REPv2'</b></span>
+    </p>
+    <p><a href="https://augur.net/blog/rep-to-repv2-guide">REPv2 Migration Guide</a>
+    </p>
+    <p>Address: <b>0x221657776846890989a759ba2973e427dff5c9bb</b>
+    </p>
+    <p class="green"><b>It is advised that all aggregators and exchanges rename their token listings to 'REPv2', use the new REPv2 token logo, and continue to reflect the total 11,000,000 supply (the total of REP + REPv2) in order to ensure consistency with the Augur Protocol.</b> </p>
+    <p style="font-size:.80rem;">REP and REPv2 are fundamentally the same from the perspective of the Augur Protocol, it uses the total supply of 11,000,000 to calculate fees paid to reporters. REP can be migrated to REPv2 at anytime.</p>
+  </div>
+  <div class="container" style="margin-top:-1rem;">
+    <div class="row">
+      <div class="col-lg-6">
+        <h4 id="header_two"> REPv2 Markets </h4>
+        <p>Confirmed and active REPv2 trading pairs.</p>
+        <div class="exchanges">
+          <table>
+            <thead>
+              <tr>
+                <th>Exchange</th>
+                <th>Trading Pair</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Binance</td>
+                <td><a href="https://www.binance.com/en/trade/REP_ETH" data-toggle="tooltip" data-placement="top" title="Pending rename, confirmed REPv2 underlying token, notice in deposit & withdraw modals.">REPv2/ETH</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Binance</td>
+                <td><a href="https://www.binance.com/en/trade/REP_BTC" data-toggle="tooltip" data-placement="top" title="Pending rename, confirmed REPv2 underlying token, notice in deposit & withdraw modals.">REPv2/BTC</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Binance</td>
+                <td><a href="https://www.binance.com/en/trade/REP_USDT" data-toggle="tooltip" data-placement="top" title="Pending rename, confirmed REPv2 underlying token, notice in deposit & withdraw modals.">REPv2/USDT</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Binance</td>
+                <td><a href="https://www.binance.com/en/trade/REP_BUSD" data-toggle="tooltip" data-placement="top" title="Pending rename, confirmed REPv2 underlying token, notice in deposit & withdraw modals.">REPv2/BUSD</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Binance US</td>
+                <td><a href="https://www.binance.us/en/trade/pro/REP_USD" data-toggle="tooltip" data-placement="top" title="Pending rename, confirmed REPv2 underlying token, notice in deposit & withdraw modals.">REPv2/USD</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Binance US</td>
+                <td><a href="https://www.binance.us/en/trade/pro/REP_BUSD" data-toggle="tooltip" data-placement="top" title="Pending rename, confirmed REPv2 underlying token, notice in deposit & withdraw modals.">REPv2/BUSD</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Binance KR</td>
+                <td><a href="https://www.binance.kr/trade/REP_BTC" data-toggle="tooltip" data-placement="top" title="Pending rename, confirmed REPv2 underlying token, notice in deposit & withdraw modals.">REPv2/BTC</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Binance KR</td>
+                <td><a href="https://www.binance.kr/trade/REP_USDT" data-toggle="tooltip" data-placement="top" title="Pending rename, confirmed REPv2 underlying token, notice in deposit & withdraw modals.">REPv2/USDT</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Binance KR</td>
+                <td><a href="https://www.binance.kr/trade/REP_BUSD" data-toggle="tooltip" data-placement="top" title="Pending rename, confirmed REPv2 underlying token, notice in deposit & withdraw modals.">REPv2/BUSD</a>
+                </td>
+              </tr>
+              <tr>
+                <td>BitFinex</td>
+                <td><a href="https://www.bitfinex.com/t/REP:ETH">REPv2/ETH</a>
+                </td>
+              </tr>
+              <tr>
+                <td>BitFinex</td>
+                <td><a href="https://www.bitfinex.com/t/REP:BTC">REPv2/BTC</a>
+                </td>
+              </tr>
+              <tr>
+                <td>BitFinex</td>
+                <td><a href="https://www.bitfinex.com/t/REP:USD">REPv2/USD</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Bittrex</td>
+                <td><a href="https://global.bittrex.com/Market/Index?MarketName=ETH-REPV2">REPv2/ETH</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Bittrex</td>
+                <td><a href="https://global.bittrex.com/Market/Index?MarketName=BTC-REPV2">REPv2/BTC</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Crex24</td>
+                <td><a href="https://crex24.com/exchange/REP-BTC" data-toggle="tooltip" data-placement="top" title="Pending rename, confirmed REPv2 underlying token.">REPv2/BTC</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Exrates</td>
+                <td><a href="https://exrates.me/trading/REPV2BTC">REPv2/BTC</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Kraken</td>
+                <td><a href="https://trade.kraken.com/charts/KRAKEN:REPV2-ETH">REPv2/ETH</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Kraken</td>
+                <td><a href="https://trade.kraken.com/charts/KRAKEN:REPV2-BTC">REPv2/BTC</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Kraken</td>
+                <td><a href="https://trade.kraken.com/charts/KRAKEN:REPV2-USD">REPv2/USD</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Kraken</td>
+                <td><a href="https://trade.kraken.com/charts/KRAKEN:REPV2-EUR">REPv2/EUR</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Upbit</td>
+                <td><a href="https://upbit.com/exchange?code=CRIX.UPBIT.KRW-REP" data-toggle="tooltip" data-placement="top" title="Pending rename, confirmed REPv2 underlying token.">REPv2/KRW</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Uniswap v2</td>
+                <td><a href="https://app.uniswap.org/#/swap?inputCurrency=0x221657776846890989a759ba2973e427dff5c9bb&outputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f">REPv2/DAI</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Uniswap v2</td>
+                <td><a href="https://app.uniswap.org/#/swap?inputCurrency=0x221657776846890989a759ba2973e427dff5c9bb&outputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2">REPv2/ETH</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Balancer</td>
+                <td><a href="https://balancer.exchange/#/swap/0x221657776846890989a759ba2973e427dff5c9bb">REPv2/ETH</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
-    </div>
-    <div id ="footer" class="row">
-      <div class="col-12">
-        Last Updated: 08/03/20 @ 23:23 UTC
+      <div class="col-lg-6">
+        <h4 id="header_two"> In Progress </h4>
+        <p>Markets in-progress of their migration plans.</p>
+        <div class="exchanges">
+          <table>
+            <thead>
+              <tr>
+                <th>Exchange</th>
+                <th>Trading Pair</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Coinbase</td>
+                <td><a href="https://help.coinbase.com/en/coinbase/getting-started/general-crypto-education/augur-upgrade-from-rep-to-repv2">Announced</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Bithumb</td>
+                <td><a href="https://webcache.googleusercontent.com/search?q=cache:OQKPjBgW1QsJ:https://cafe.bithumb.com/view/board-contents/1641002+&cd=3&hl=en&ct=clnk&gl=uk">In Progress</a>
+                </td>
+              </tr>
+              <tr>
+                <td>CoinEx</td>
+                <td><a href="https://announcement.coinex.com/hc/en-us/articles/360046588112-Augur-REP-Token-Swap-to-Augur-REPv2-Will-Be-Supported-on-CoinEx">In Progress</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Poloniex</td>
+                <td><a href="https://support.poloniex.com/hc/en-us/articles/360052503073-Augur-REP-Version-2-Upgrade">In Progress</a>
+                </td>
+              </tr>
+              <tr>
+                <td>HitBTC</td>
+                <td><a href="https://twitter.com/hitbtc/status/1286637581224955904">In Progress</a>
+                </td>
+              </tr>
+              <tr>
+                <td>CoinBene</td>
+                <td>In Progress</td>
+              </tr>
+              <tr>
+                <td>Folgory</td>
+                <td>In Progress</td>
+              </tr>
+              <tr>
+                <td>BitMart</td>
+                <td>Acknowledged</td>
+              </tr>
+              <tr>
+                <td>CoinField</td>
+                <td>Acknowledged</td>
+              </tr>
+              <tr>
+                <td>Gate.io</td>
+                <td>Acknowledged</td>
+              </tr>
+              <tr>
+                <td>Indodax</td>
+                <td>Acknowledged</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h4 id="header_two"> Contacted </h4>
+        <p>Waiting on public disclosure with guidance of their plans.</p>
+        <p>BiBox, BitBay, BitBNS, Bitsdaq, ChaoEX, CoinTiger, GoPAX, Hanbitco, LAToken, Mercatox, OMGFin, PolyX, ProBit, RightBTC, VCC Exch</p>
+        <p>--------------</p>
+        <p class="green">Please send us an email if you notice or believe there is an exchange,
+          <br>platform or service omitted from this list.</p>Contact: <a href="mailto:migrate@augur.net">migrate@augur.net</a>
         <br>
-        PM Research LTD <a href="https://pm-ltd.net">🌐</a>
+        <br> <a href="https://augur.net/press-kit-downloads/rep-icon.zip"> REPv2 Token Icon Branding Kit </a> 
+        <br>
+        <br> <a href="https://augur.net/press-kit-downloads/augur-logo.zip"> Augur v2 Logo Branding Kit </a>
       </div>
     </div>
+  </div>
+  <div id="footer" class="row">
+    <div class="col-12">Last Updated: 08/08/20 @ 00:47 UTC
+      <br>PM Research LTD <a href="https://pm-ltd.net">🌐</a>
     </div>
-    <script src='https://code.jquery.com/jquery-1.6.4.js'></script>
-    <script src="./script.js"></script>
-  </body>
+  </div>
+  </div>
+  <script src='https://code.jquery.com/jquery-1.6.4.js'></script>
+  <script src="./script.js"></script>
+  </head>
+</body>
+
 </html>
