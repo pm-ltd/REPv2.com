@@ -113,3 +113,11 @@ p {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+.table th, .table td{
+  border-style:none;
+}
+
+.table thead th {
+  border-bottom:none;
+}
